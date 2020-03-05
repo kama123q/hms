@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 
-                     echo "Hello World"
+                     ssh -tt -o StrictHostkeychecking=no centos@3.19.32.113 'touch kama1'
                 }
             }
         }
