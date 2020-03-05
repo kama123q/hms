@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                 script 'cat k.txt'
+                 sh mkdir hel
                      echo "Hello World"
                 }
             }
