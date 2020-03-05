@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                  
-                    sh cat k.txt
+                     cat k.txt
                 }
             }
         }
