@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                  
-                     cat k.txt
+                     sh echo "Hello World"
                 }
             }
         }
