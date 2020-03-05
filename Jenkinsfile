@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                  mkdir hel
-                cat k.txt
+            
                 touch kk.txt
                 
                      echo "Hello World"
