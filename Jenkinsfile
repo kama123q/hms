@@ -5,9 +5,6 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                 mkdir hel
-            
-                touch kk.txt
                 
                      echo "Hello World"
                 }
