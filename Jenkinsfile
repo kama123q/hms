@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 
-                     sh 'ssh -tt -o StrictHostkeychecking=no centos@3.19.32.113 touch k'
+                     sh 'ssh -tt -o StrictHostkeychecking=no centos@3.19.32.113 touch juyel'
                 }
             }
         }
